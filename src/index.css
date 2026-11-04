@@ -1,0 +1,24 @@
+* { box-sizing: border-box; }
+body, h1, h2, h3, h4, h5, h6, p, span, div, td, th, input, select, button {
+  color: #0f172a !important;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+.pitch {
+  background: #166534;
+  border-radius: 12px;
+  position: relative;
+  border: 4px solid #14532d;
+  box-shadow: inset 0 0 20px rgba(0,0,0,0.3);
+}
+.player-card {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0.95);
+  border: 2px solid #0f172a;
+  border-radius: 8px;
+  padding: 4px 8px;
+  text-align: center;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.15);
+}
